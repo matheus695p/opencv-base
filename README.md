@@ -1,2 +1,4 @@
 # opencv
-basic opencv
+
+deteccion de bordes
+
