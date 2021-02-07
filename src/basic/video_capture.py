@@ -1,15 +1,6 @@
 import cv2
 
 
-def read_video(path):
-    cap = cv2.VideoCapture(path)
-    while True:
-        success, img = cap.read()
-        cv2.imshow("video", img)
-        if cv2.waitKey(1) & 0xFF == ord("q"):
-            break
-
-
 def read_video_webcam():
     cap = cv2.VideoCapture(0)
     cap.set(3, 640)
