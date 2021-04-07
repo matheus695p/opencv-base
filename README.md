@@ -1,6 +1,7 @@
 # opencv
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-deteccion de bordes
+Repo que hice alguna vez para tener a mano funciones básicas de opencv
 
 ```sh
 ├───data
